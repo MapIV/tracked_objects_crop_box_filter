@@ -1,11 +1,11 @@
 <launch>
   <arg name="filter_unknown" default="false" />
-  <arg name="min_x" default="-300.0" />
-  <arg name="max_x" default="300.0" />
-  <arg name="min_y" default="-300.0" />
-  <arg name="max_y" default="300.0" />
-  <arg name="min_z" default="-300.0" />
-  <arg name="max_z" default="300.0" />
+  <arg name="min_x" default="-500.0" />
+  <arg name="max_x" default="500.0" />
+  <arg name="min_y" default="-500.0" />
+  <arg name="max_y" default="500.0" />
+  <arg name="min_z" default="-500.0" />
+  <arg name="max_z" default="500.0" />
 
   <arg name="input_topic" default="/input/tracked_objects" />
   <arg name="inside_output_topic" default="/output/inside_tracked_objects" />
